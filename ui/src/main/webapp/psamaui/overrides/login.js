@@ -40,4 +40,4 @@ define(["picSure/settings", "text!overrides/not_authorized.hbs", "handlebars"], 
             $('#main-content').html(HBS.compile(notAuthorizedTemplate)({helpLink:settings.helpLink}));
         }
 	};
-});
+});	
