@@ -21,7 +21,7 @@ delete from auth.application;
 -- Insert
 
 -- Application
-insert into auth.application (uuid, description, enable, name, token, url)  values ('0x5AD2C3929C474B2795CC0D08C9680B43', null, b'\x01', 'PICSURE', 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQU0FNQV9BUFBMSUNBVElPTnw1YWQyYzM5Mi05YzQ3LTRiMjctOTVjYy0wZDA4Yzk2ODBiNDMiLCJleHAiOjE1OTY4MTMxNDcsInVzZXJfaWQiOiJQU0FNQV9BUFBMSUNBVElPTnxQSUNTVVJFIiwiaWF0IjoxNTY1Mjc3MTQ3fQ.AT4_dJiduhBIe_nEqCE4p8hdfrKGNQZ0DWvjj6iF-4I', '/picsureui' );
+insert into auth.application (uuid, description, enable, name, token, url)  values ('0x5AD2C3929C474B2795CC0D08C9680B43', null, 0x01, 'PICSURE', 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQU0FNQV9BUFBMSUNBVElPTnw1YWQyYzM5Mi05YzQ3LTRiMjctOTVjYy0wZDA4Yzk2ODBiNDMiLCJleHAiOjE1OTY4MTMxNDcsInVzZXJfaWQiOiJQU0FNQV9BUFBMSUNBVElPTnxQSUNTVVJFIiwiaWF0IjoxNTY1Mjc3MTQ3fQ.AT4_dJiduhBIe_nEqCE4p8hdfrKGNQZ0DWvjj6iF-4I', '/picsureui' );
 
 -- Privilege
 insert into auth.privilege (uuid, description, name, application_id )  values ('0x2A98EF8A8E734F50A03545934F56F085', 'PIC-SURE Auth super admin for managing roles/privileges/application/connections', 'SUPER_ADMIN', null  );
