@@ -106,7 +106,7 @@
  .logo-img {
      max-height: 80px;
      max-width: 275px;
-     padding: 10px;
+	 width: auto;
 }
  #pic-sure-instances {
      width: 100%;
